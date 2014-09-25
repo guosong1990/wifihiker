@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">wifi破解神器</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="signal_strength">信号强度</string>
+    <string name="security_level">安全性</string>
+    <string name="password">密码未知</string>
+    <string name="show_password">显示密码</string>
+    <string name="connect">破解</string>
+    <string name="disconnect">断开</string>
+    <string name="cancel">取消</string>
+    <string name="alertmthod">更换策略</string>
+    <string name="againtry">再次尝试</string>
+    <string name="conn_status">连接状态</string>
+    <string name="ip_address">IP地址</string>
+	<string name="failtitle">破解未完成</string>
+	<string name="abouttitle">关于破解算法</string>
+	<string name="reason">原因：</string>
+	<string name="reason_content">
+	    1,可能是对方wifi密码复杂，需要更长的时间去破解，此时请继续，或是选择其他破解方式\n
+	    2,对方wifi可能使用了MAC地址过滤\n
+	    3,对方wifi可能使用了静态ip\n
+	    4,对方使用了更加高级的加密方式比如wpa2\n
+	          注意：除了2,3种情况外，理论上如果有足够时间是能够破解的，赶紧再试试吧！\n
+	</string>
+	<string name="shuoming">说明：</string>
+	<string name="shuoming_content">
+	    1,暴力算法采用逐个英语字符，数字，特殊符号的每一个组合对密码进行尝试，理论上这个方法是肯定能够得到密码的，本人亲测，在较短密码情况下也需要较长时间才能对密码进行破解，所以使用本方法的亲们请耐心等待。\n
+	    2,随机法采用随机生成8-63个由英语字符，数字，特殊符号组成的密码进行尝试，此方法对猜测密码进行了随机化，可以理解为它对密码的设置是否复杂没关系了，同样，想要获取密码也需要较长时间。\n
+	    3,数据字典法是使用本软件中内置的数据字典对密码进行推测验算，然后对其验证是否正确，此方法能得到密码的具有局限性，但是较快捷，简单密码成功率高。\n
+	    4,专业破解法此方法内部实现原理为先对常用的密码进行猜测,然后采用对常用密码组合再对其进行猜测，最后使用定制的数字字典进行推算验证，同样简单密码成功率还是很高。\n
+	  	  注意：亲，本软件并不能保证你一定能够破解得到密码，因为现在想破解wifi密码并非易事，此上方法都可以试用一下，没有那种是最好的纯看运气了。\n
+	  	 声明：一切非法获取别人的密码都和本软件无关。
+	  	  
+	</string>
+	<string name="mingbai">明白</string>
+</resources>
